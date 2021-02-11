@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "ja"
-title = "My New Hugo Site"
+title = "My New Hugo Nuxt Site"
 
 [outputs]
-section = ["JSON", "HTML"]
+page = ["HTML", "JSON"]
