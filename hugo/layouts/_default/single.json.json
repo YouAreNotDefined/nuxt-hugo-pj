@@ -1,0 +1,9 @@
+{
+  "title": {{ .Title | jsonify }},
+  "description": {{ .Summary | jsonify}},
+  "date": {{ .Date | jsonify }},
+  "dir": {{ .Dir | jsonify }},
+  "tags": {{ .Params.tags | jsonify}},
+  "categories": {{ .Params.categories | jsonify }},
+  "content":  {{ .Content | jsonify }}
+}

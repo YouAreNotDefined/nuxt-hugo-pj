@@ -1,6 +1,18 @@
 baseURL = "http://example.org/"
-languageCode = "ja"
+DefaultContentLanguage = "ja"
+languageCode = "ja-jp"
 title = "My New Hugo Nuxt Site"
+author = "Kazuki"
+copyright = "Copyright © 2021 Kazuki"
+ignoreErrors = ["error-output-taxonomy"]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
 
 [outputs]
-page = ["HTML", "JSON"]
+home = ["JSON"]
+page = ["JSON"]
+section = ["JSON"]
+taxonomy = ["JSON"]
