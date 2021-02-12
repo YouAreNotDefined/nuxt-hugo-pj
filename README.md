@@ -1,20 +1,10 @@
 # blog-pj
 
-## Build Setup
+This is the repository to create my blog site that use Nuxt.js and Hugo.
 
-```bash
-# install dependencies
-$ npm install
+## Flow
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+1. Write a article by Markdown.
+2. Commit it and push to Github.
+3. Netlify will detect that push and generate a Json file by Hugo.
+4. Moreover do the rendering of the article by Nuxt generate.
