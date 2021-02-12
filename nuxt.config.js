@@ -1,17 +1,41 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'blog-pj',
+    title: 'Bouzuweed',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'ja'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: '素人エンジニアの雑多ブログ'
+      }, {
+        hid: 'og-description',
+        property: 'og:description',
+        content: '素人エンジニアの雑多ブログ'
+      }, {
+        hid: 'og-title',
+        property: 'og:title',
+        content: 'Bouzuweed'
+      },{
+        hid: 'og-type',
+        property: 'og:type',
+        content: 'website'
+      }, {
+        hid: 'og-image',
+        property: 'og:image',
+        content: ''
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap',
+        rel: "stylesheet"
+      }
     ]
   },
 

@@ -1,13 +1,18 @@
 <template>
-  <div class="container">
-
+  <div>
+    <Header></Header>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+import Header from '~/components/Header.vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  components: {
+    Header
+  }
+})
 </script>
 
 <style>
