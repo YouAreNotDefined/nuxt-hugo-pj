@@ -1,0 +1,8 @@
+{
+  "item": [
+    {{ define "response" }}{{ .Render "item" }}{{ end }}
+    {{ range $i, $v := .Data.Pages }}{{ if ne $i 0 }},{{ end }}{{ with $v }}
+    {{ template "response" . }}
+    {{ end }}{{ end }}
+  ]
+}

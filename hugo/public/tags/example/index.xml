@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>example on My New Hugo Nuxt Site</title>
+    <link>http://example.org/tags/example/</link>
+    <description>Recent content in example on My New Hugo Nuxt Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>Copyright © 2021 Kazuki</copyright>
+    <lastBuildDate>Fri, 12 Feb 2021 14:17:42 +0900</lastBuildDate><atom:link href="http://example.org/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>http://example.org/posts/2021/02/first/index.json</link>
+      <pubDate>Fri, 12 Feb 2021 14:17:42 +0900</pubDate>
+      
+      <guid>http://example.org/posts/2021/02/first/index.json</guid>
+      <description>first リスト リスト リスト done This is first page.</description>
+    </item>
+    
+  </channel>
+</rss>

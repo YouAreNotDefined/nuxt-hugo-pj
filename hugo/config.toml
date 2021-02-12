@@ -5,11 +5,15 @@ title = "My New Hugo Nuxt Site"
 author = "Kazuki"
 copyright = "Copyright © 2021 Kazuki"
 ignoreErrors = ["error-output-taxonomy"]
+HasCJKLanguage = true
 
 [taxonomies]
 tag = "tags"
 category = "categories"
 series = "series"
+
+[permalinks]
+posts = "posts/:year/:month:/:filename/"
 
 [outputs]
 home = ["JSON"]

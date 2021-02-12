@@ -5,4 +5,5 @@ draft: true
 summary: ""
 tags: ["",""]
 categories: ["",""]
+image: ""
 ---

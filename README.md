@@ -1,4 +1,4 @@
-# blog-pj
+# Nuxt-Hugo-pj
 
 This is the repository to create my blog site that use Nuxt.js and Hugo.
 

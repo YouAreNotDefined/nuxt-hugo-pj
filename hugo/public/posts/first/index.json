@@ -1,9 +1,0 @@
-{
-  "title": "First",
-  "description": "\u003ch2 id=\"first\"\u003efirst\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eリスト\u003c/li\u003e\n\u003cli\u003eリスト\u003c/li\u003e\n\u003cli\u003eリスト\u003c/li\u003e\n\u003c/ul\u003e",
-  "date": "2021-02-12T14:17:42+09:00",
-  "dir": "posts\\",
-  "tags": ["",""],
-  "categories": ["",""],
-  "content":  "\u003ch2 id=\"first\"\u003efirst\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eリスト\u003c/li\u003e\n\u003cli\u003eリスト\u003c/li\u003e\n\u003cli\u003eリスト\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2 id=\"done\"\u003edone\u003c/h2\u003e\n\u003cp\u003eThis is first page.\u003c/p\u003e"
-}

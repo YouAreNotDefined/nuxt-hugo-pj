@@ -1,9 +1,6 @@
 {
-  "title": {{ .Title | jsonify }},
-  "description": {{ .Summary | jsonify}},
-  "date": {{ .Date | jsonify }},
-  "dir": {{ .Dir | jsonify }},
-  "tags": {{ .Params.tags | jsonify}},
-  "categories": {{ .Params.categories | jsonify }},
-  "content":  {{ .Content | jsonify }}
+  "data": {{ define "response" }}{{ .Render "item" }}{{ end }}{{ template "response" . }},
+  "next": {{ .Next | jsonify }},
+  "prev": {{ .Prev | jsonify }},
+  "content":  "{{ replace .Content "\n" "" }}"
 }
