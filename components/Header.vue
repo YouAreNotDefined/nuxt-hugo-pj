@@ -1,12 +1,10 @@
 <template>
-  <header class="header">
+  <header>
     <nav>
-      <ul class="header-nav">
-        <li>
-          <router-link to="/"><img src="" alt="Bouzuweed"></router-link>
-        </li>
-        <li>
-          <router-link to="/about">ABOUT</router-link>
+      <ul class="common-nav">
+        <li v-for="(link, index) in $store.state.commonLinks" :key="index">
+          <router-link :to="link.to" v-if="link.img"><img src="" :alt="link.text"></router-link>
+          <router-link v-else :to="link.to">{{ link.text }}</router-link>
         </li>
       </ul>
     </nav>
@@ -15,13 +13,9 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import store from '~/store/store'
 
-export default Vue.extend({})
+export default Vue.extend({
+  store
+})
 </script>
-
-<style scoped>
-.header-nav{
-  display: flex;
-  justify-content: space-between;
-}
-</style>

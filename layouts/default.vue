@@ -63,4 +63,24 @@ btn {
   border: 0;
   cursor: pointer;
 }
+
+/*==============================
+  header / footer
+==============================*/
+.common-nav{
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.common-nav li{
+  padding: 20px 30px;
+}
+.common-nav a:link,
+.common-nav a:visited{
+  color: #000000;
+  letter-spacing: 2px;
+}
+.common-nav a:hover{
+  opacity: 0.6;
+}
 </style>
